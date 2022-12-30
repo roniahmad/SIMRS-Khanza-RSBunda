@@ -421,8 +421,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Suhu (&#xb0;C)">
-                    <Property name="tabTitle" type="java.lang.String" value="Suhu (&#xb0;C)"/>
+                  <JTabbedPaneConstraints tabName="Suhu">
+                    <Property name="tabTitle" type="java.lang.String" value="Suhu"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -450,8 +450,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Respirasi (/menit)">
-                    <Property name="tabTitle" type="java.lang.String" value="Respirasi (/menit)"/>
+                  <JTabbedPaneConstraints tabName="Respirasi">
+                    <Property name="tabTitle" type="java.lang.String" value="Respirasi"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -479,8 +479,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Nadi (/menit)">
-                    <Property name="tabTitle" type="java.lang.String" value="Nadi (/menit)"/>
+                  <JTabbedPaneConstraints tabName="Nadi">
+                    <Property name="tabTitle" type="java.lang.String" value="Nadi"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -508,8 +508,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="SpO2 (%)">
-                    <Property name="tabTitle" type="java.lang.String" value="SpO2 (%)"/>
+                  <JTabbedPaneConstraints tabName="SpO2">
+                    <Property name="tabTitle" type="java.lang.String" value="SpO2"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -537,8 +537,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="GCS (E,V,M)">
-                    <Property name="tabTitle" type="java.lang.String" value="GCS (E,V,M)"/>
+                  <JTabbedPaneConstraints tabName="GCS">
+                    <Property name="tabTitle" type="java.lang.String" value="GCS"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -595,8 +595,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Tensi (mmHg)">
-                    <Property name="tabTitle" type="java.lang.String" value="Tensi (mmHg)"/>
+                  <JTabbedPaneConstraints tabName="Tensi">
+                    <Property name="tabTitle" type="java.lang.String" value="Tensi"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -610,6 +610,93 @@
                       <ComponentRef name="jPopupMenu1"/>
                     </Property>
                     <Property name="name" type="java.lang.String" value="tbTensi" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="widget.ScrollPane" name="Scroll7">
+              <Properties>
+                <Property name="componentPopupMenu" type="javax.swing.JPopupMenu" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="jPopupMenu1"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="Scroll7" noResource="true"/>
+                <Property name="opaque" type="boolean" value="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="TB">
+                    <Property name="tabTitle" type="java.lang.String" value="TB"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="widget.Table" name="tbTB">
+                  <Properties>
+                    <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                    <Property name="componentPopupMenu" type="javax.swing.JPopupMenu" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                      <ComponentRef name="jPopupMenu1"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="tbTB" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="widget.ScrollPane" name="Scroll8">
+              <Properties>
+                <Property name="componentPopupMenu" type="javax.swing.JPopupMenu" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="jPopupMenu1"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="Scroll8" noResource="true"/>
+                <Property name="opaque" type="boolean" value="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="BB">
+                    <Property name="tabTitle" type="java.lang.String" value="BB"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="widget.Table" name="tbBB">
+                  <Properties>
+                    <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                    <Property name="componentPopupMenu" type="javax.swing.JPopupMenu" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                      <ComponentRef name="jPopupMenu1"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="tbBB" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="widget.ScrollPane" name="Scroll9">
+              <Properties>
+                <Property name="componentPopupMenu" type="javax.swing.JPopupMenu" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="jPopupMenu1"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="Scroll9" noResource="true"/>
+                <Property name="opaque" type="boolean" value="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="LP">
+                    <Property name="tabTitle" type="java.lang.String" value="LP"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="widget.Table" name="tbLP">
+                  <Properties>
+                    <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                    <Property name="componentPopupMenu" type="javax.swing.JPopupMenu" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                      <ComponentRef name="jPopupMenu1"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="tbLP" noResource="true"/>
                   </Properties>
                 </Component>
               </SubComponents>
